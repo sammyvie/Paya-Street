@@ -6,6 +6,12 @@ body {
     font-weight: 400;
     font-style: normal;
   }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* prevents right-side overflow */
+}
 
 
   /* NAVBARS FEATURE PAGE */
@@ -140,9 +146,8 @@ body {
 
 /* GALLERY SECTION */
 .gallery {
-    padding: 4rem 5rem;
-    background: transparent; 
-  }
+  padding: 4rem 2rem;  /* change from 5rem to 2rem */
+}
   
   .gallery-title {
     text-align: center;
@@ -174,12 +179,11 @@ body {
     max-width: 50%;
   }
   
-  .gallery-video video {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px; 
-    border: 5px solid #ffffff; 
+ .gallery-video video {
+  max-width: 100%;     /* instead of width:100% */
+  display: block;      /* removes inline spacing */
+  border-radius: 10px;
+  border: 5px solid #ffffff;
 }
   
   .gallery-text {
@@ -202,6 +206,15 @@ body {
     font-family: "Poppins", sans-serif;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); 
   }
+.gallery-video video,
+.about-video video,
+.infographic img,
+.contact-image video {
+  max-width: 100%;
+  height: auto;
+  display: block;   /* removes extra inline spacing */
+}
+
   
   /* === Contact Section === */
 .contact {
