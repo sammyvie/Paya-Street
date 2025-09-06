@@ -178,7 +178,12 @@ html, body {
     flex: 1;
     max-width: 50%;
   }
-  
+  video {
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
  .gallery-video video {
   max-width: 100%;     /* instead of width:100% */
   display: block;      /* removes inline spacing */
@@ -213,6 +218,12 @@ html, body {
   max-width: 100%;
   height: auto;
   display: block;   /* removes extra inline spacing */
+}
+ .about-video, .about-text,
+.gallery-video, .gallery-text {
+  flex: 1;
+  min-width: 0;     /* prevents overflow */
+  max-width: 100%;  /* no hard 50% + gap overflow */
 }
 
   
