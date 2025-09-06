@@ -10,7 +10,7 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow-x: hidden; /* prevents right-side overflow */
+  overflow-x: hidden; 
 }
 
 
@@ -95,8 +95,8 @@ html, body {
 /* ABOUT US SECTION*/
  .about {
   display: flex;
-  flex-direction: row;        /* make sure it's side by side */
-  align-items: stretch;       /* columns same height */
+  flex-direction: row;       
+  align-items: stretch;      
   justify-content: space-between;
   gap: 2rem;
   padding: 4rem 2rem;
@@ -104,7 +104,7 @@ html, body {
 }
 .about-video,
 .about-text {
-  flex: 1 1 50%;   /* each takes up half of the space */
+  flex: 1 1 50%;  
   max-width: 50%;
 }
 
@@ -146,26 +146,25 @@ html, body {
 
 /* GALLERY SECTION */
 .gallery {
-    margin-top: 5rem;
-  max-width: 1200px;   /* or whatever width you want */
-  margin: 0 auto;      /* centers the section */
-  padding: 4rem 30px;  /* adds breathing room on sides */
+  margin-top: 5rem;
+  max-width: 1400px;  
+  margin: 0 auto;
+  padding: 4rem 30px;  
 }
-
 .gallery-title {
   text-align: center;
   font-size: 3.1rem;
   font-weight: 800;
-  margin: 4rem 0 6rem 0;
-  color: #ffffff;
+  margin: 1rem 0 2rem 0;
+  color: #ffdd57; 
   font-style: italic;
   font-family: "Poppins", sans-serif;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); 
 }
 
 .gallery-row {
   display: flex;
-  align-items: center;        /* ✅ keeps text & video aligned */
+  align-items: center;        
   justify-content: space-between;
   gap: 3rem;
   margin-bottom: 5rem;
@@ -175,24 +174,23 @@ html, body {
   flex-direction: row-reverse;
 }
 
+.gallery-video video {
+  width: 100%;
+  height: 450px;   
+  object-fit: cover;
+}
+
 .gallery-video {
-  flex: 1;
-  max-width: 45%;             /* ✅ video takes 45% of row */
+  flex: 1.3;   
+  max-width: 60%;   
   border-radius: 15px;
   border: 4px solid #ffffff;
   overflow: hidden;
 }
 
-.gallery-video video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
 .gallery-text {
   flex: 1;
-  max-width: 50%;             /* ✅ keeps text balanced with video */
+  max-width: 40%;   
 }
 
 .gallery-text h3 {
@@ -210,7 +208,6 @@ html, body {
   font-family: "Poppins", sans-serif;
 }
 
-/* ✅ Mobile responsiveness */
 @media (max-width: 768px) {
   .gallery-row,
   .gallery-row.reverse {
@@ -226,22 +223,22 @@ html, body {
 
   /* === Contact Section === */
 .contact {
-  background: #fff;              /* white background */
+  background: #fff;             
   padding: 4rem 2rem;
-  color: #026769;                /* default text color */
+  color: #026769;               
 }
 
 .contact h2 {
-  text-align: center;            /* keep the title centered */
+  text-align: center;           
   margin-bottom: 3rem;
   font-size: 2rem;
   font-weight: 700;
-  color: #026769;                /* ensure title stays green */
+  color: #026769;             
 }
 
 .contact-content {
   display: flex;
-  flex-direction: row;           /* side by side layout */
+  flex-direction: row;      
   gap: 2rem;
   align-items: flex-start;
   justify-content: center;
@@ -270,18 +267,18 @@ html, body {
   margin-top: 2rem;
   padding-left: 35px;
   font-size: 1.2rem;
-  color: #026769;                /* brand green */
+  color: #026769;                
 }
 
 .contact-info p {
   padding-left: 35px;
   margin: 0.3rem 0 1rem;
   line-height: 1.5;
-  color: #026769;                /* brand green */
+  color: #026769;                
 }
 
 .contact-info a {
-  color: #026769;                /* links same green */
+  color: #026769;               
   text-decoration: none;
   font-weight: 600;
 }
@@ -361,7 +358,6 @@ html, body {
     height: auto;
   }
   
-  /* Hide the music iframe everywhere */
 #music-frame {
   display: none;
 }
