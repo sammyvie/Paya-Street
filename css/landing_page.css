@@ -126,7 +126,7 @@
   .about {
     padding: 2rem 10% 3rem; 
     color: #fff;
-    background: url("/Users/samanthawaynedg/Desktop/Paya Street Websites/img/aboutus_sec.png") 
+    background: url("./img/aboutus_sec.png") 
                 center 10% / cover no-repeat;
     display: flex;
     align-items: flex-end;  
