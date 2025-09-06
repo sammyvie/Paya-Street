@@ -96,15 +96,8 @@ body {
     padding: 3rem 5rem;      
   }
   
-  .about-video {
-    flex: 1;
-    max-width: 50%;
-    margin: 0;   
-  padding: 0; 
-  }
-  
  .about-video img {
-  width: 100%;
+  width: 40%;
   height: auto;
   object-fit: cover;   /* keeps image proportion */
   border-radius: 10px;
