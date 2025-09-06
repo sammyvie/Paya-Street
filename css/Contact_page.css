@@ -1,0 +1,100 @@
+/* CONTACT PAGE */
+
+.contact-section {
+    max-width: 800px;
+    margin: 80px auto;
+    font-family: "Poppins", sans-serif;
+    padding: 40px;
+    padding-right: 60px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.25);
+    text-align: center;
+  }
+  
+  .contact-section h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    color: #004f50;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .contact-section p {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #004142;
+    margin-bottom: 30px;
+  }
+  
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    text-align: left;
+  }
+  
+  .contact-form label {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #004f50;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #004142;
+    border: 2px solid #004142; 
+    width: 100%;
+  }
+  
+  .contact-form textarea {
+    resize: none;
+    min-height: 120px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .contact-form button {
+    background-color: #058284;
+    color: white;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #063939;
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+
+  /* Hide the music iframe everywhere */
+#music-frame {
+  display: none;
+}
+
+  .footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    margin-top: 5rem;      
+    margin-bottom: 3rem;     
+  }
+  
+  .footer img {
+    max-width: 350px; 
+    height: auto;
+  }
+  
