@@ -123,20 +123,19 @@
   }
   
   /* ABOUT SECTION LANDING PAGE */
-  .about {
-    padding: 2rem 10% 3rem; 
-    color: #fff;
-    background: url("./img/aboutus_sec.png") 
-                center 10% / cover no-repeat;
-    display: flex;
-    align-items: flex-end;  
+ .about {
+  padding: 2rem 10% 3rem; 
+  color: #fff;
+  background: url("../img/aboutus_sec.png") center 10% / cover no-repeat;
+  display: flex;
+  align-items: flex-end;  
   justify-content: flex-start; 
-    min-height: 700px;
-    border-radius: 12px;
-    margin-bottom: 6rem;
-    box-shadow: -7px 7px 9px rgba(4, 57, 59, 0.658); 
+  min-height: 700px;
+  border-radius: 12px;
+  margin-bottom: 6rem;
+  box-shadow: -7px 7px 9px rgba(4, 57, 59, 0.658); 
+}
 
-  }
   
   .about-text {
     margin-left: -70px; 
