@@ -86,17 +86,19 @@ body {
     color: white;
   }
 
+/* ABOUT US SECTION*/
  .about {
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between; /* push columns apart */
+  flex-direction: row;        /* make sure it's side by side */
+  align-items: stretch;       /* columns same height */
+  justify-content: space-between;
   gap: 2rem;
   padding: 4rem 2rem;
   background: #fff;
 }
-
-.about-video {
-  flex: 1;
+.about-video,
+.about-text {
+  flex: 1 1 50%;   /* each takes up half of the space */
   max-width: 50%;
 }
 
