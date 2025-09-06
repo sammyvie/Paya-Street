@@ -203,92 +203,89 @@ body {
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3); 
   }
   
-  /* CONTACT INFO SECTION*/
+  /* === Contact Section === */
 .contact {
-    background: #fff;
-    padding: 4rem 2rem;
-    color: #026769;
-  }
-  
-  .contact h2 {
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 2rem;
-    font-weight: 700;
-    font-family: "Poppins", sans-serif;
-  }
-  
+  background: #fff;              /* white background */
+  padding: 4rem 2rem;
+  color: #026769;                /* default text color */
+}
+
+.contact h2 {
+  text-align: center;            /* keep the title centered */
+  margin-bottom: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #026769;                /* ensure title stays green */
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: row;           /* side by side layout */
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.contact-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-image video {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.contact-info {
+  flex: 1;
+  text-align: left;
+}
+
+.contact-info h3 {
+  margin-top: 2rem;
+  padding-left: 35px;
+  font-size: 1.2rem;
+  color: #026769;                /* brand green */
+}
+
+.contact-info p {
+  padding-left: 35px;
+  margin: 0.3rem 0 1rem;
+  line-height: 1.5;
+  color: #026769;                /* brand green */
+}
+
+.contact-info a {
+  color: #026769;                /* links same green */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive fix */
+@media (max-width: 900px) {
   .contact-content {
-    display: flex;
-    gap: 2rem;
-    align-items: flex-start;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
   }
-  
-  .contact-image video {
-    width: 100%;
-    max-width: 700px; 
-    border-radius: 10px; 
-    object-fit: cover;
-  }
-  
   .contact-info {
-    flex: 1;
+    text-align: center;
+    margin-top: 1rem;
   }
-  
-  .contact-info h3 {
-    margin-top: 2rem;
-    padding-left: 35px;
-    font-size: 1.2rem;
-    font-family: "Poppins", sans-serif;
-    color: #024d4d;
-  }
-  
+  .contact-info h3,
   .contact-info p {
-    padding-left: 35px;
-    margin: 0.3rem 0 1rem;
-    font-family: "Poppins", sans-serif;
-    line-height: 1.5;
+    padding-left: 0;
   }
-  
-  .contact-info a {
-    color: #026769;
-    text-decoration: none;
-    font-weight: 600;
-  }
-  
-  .contact-info a:hover {
-    text-decoration: underline;
-  }
-  
-  .contact,
-  .contact h2,
-  .contact h3,
-  .contact p,
-  .contact a {
-    text-shadow: none !important;
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .contact-content {
-      flex-direction: column;
-      text-align: center;
-    }
-    .contact-image video {
-      width: 100%;
-      max-width: 100%;
-    }
-  
-    .contact-image video {
-      max-width: 100%;
-    }
-  
-    .contact-info h3,
-    .contact-info p {
-      padding-left: 0;
-    }
-  }
+}
+
+
   
 /* INFOGRAPHIC SECTION */
 .infographic {
