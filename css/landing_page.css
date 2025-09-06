@@ -10,7 +10,7 @@
     font-family: "Poppins", sans-serif;
     background-color: #026769;
     line-height: 1.6;
-    color: #026769;   /* ✅ default text color */
+    color: #026769;  
   }
 /* NAVBAR (Hook Page Style) */
 .navbar {
@@ -337,22 +337,22 @@
 
 /* === Contact Section === */
 .contact {
-  background: #fff;              /* white background */
+  background: #fff;            
   padding: 4rem 2rem;
-  color: #026769;                /* default text color */
+  color: #026769;               
 }
 
 .contact h2 {
-  text-align: center;            /* keep the title centered */
+  text-align: center;          
   margin-bottom: 3rem;
   font-size: 2rem;
   font-weight: 700;
-  color: #026769;                /* ensure title stays green */
+  color: #026769;                
 }
 
 .contact-content {
   display: flex;
-  flex-direction: row;           /* side by side layout */
+  flex-direction: row;           
   gap: 2rem;
   align-items: flex-start;
   justify-content: center;
@@ -381,18 +381,18 @@
   margin-top: 2rem;
   padding-left: 35px;
   font-size: 1.2rem;
-  color: #026769;                /* brand green */
+  color: #026769;                
 }
 
 .contact-info p {
   padding-left: 35px;
   margin: 0.3rem 0 1rem;
   line-height: 1.5;
-  color: #026769;                /* brand green */
+  color: #026769;               
 }
 
 .contact-info a {
-  color: #026769;                /* links same green */
+  color: #026769;                
   text-decoration: none;
   font-weight: 600;
 }
