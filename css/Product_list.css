@@ -15,12 +15,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px; /* less top-bottom padding = more room for logo */
+    padding: 0px 40px; 
 }
 
 #logo {
-    height: 270px; /* Try 80–120px for a nice header size */
-    width: auto;   /* Keeps proportions */
+    height: 270px; 
+    width: auto;  
     display: block;
 }
 
@@ -45,7 +45,7 @@ header {
     position: sticky;
     top: 0;
     transition: box-shadow 0.3s ease-in-out;
-    z-index: 1000; /* make sure it's on top */
+    z-index: 1000; 
     margin-bottom: 2rem;
   }
   
@@ -67,7 +67,7 @@ header {
     font-size: 18px;
     font-family: "Poppins", sans-serif;
     font-weight:100;
-    text-shadow: -3px 2px 7px rgba(2, 45, 43, 0.847); /* subtle shadow */
+    text-shadow: -3px 2px 7px rgba(2, 45, 43, 0.847); 
 
 }
   .navbar ul li {
@@ -183,7 +183,7 @@ header {
     color: #ddd;
     text-align: left;
     font-weight: 200;
-    margin-bottom: auto; /* pushes button to bottom */
+    margin-bottom: auto; 
 }
 
 /* --------------------
