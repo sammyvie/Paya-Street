@@ -103,12 +103,13 @@ body {
   padding: 0; 
   }
   
-  .about-video video {
-    width: 100%;
-    height: auto;              
-    object-fit: cover;
-    border-radius: 10px;       
-  }
+ .about-video img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;   /* keeps image proportion */
+  border-radius: 10px;
+}
+
   
   .about-text {
     flex: 1;
